@@ -1,158 +1,144 @@
-  {
-  "name": "CyberpunkShrine",
-  "description": "Cyberpunk-ish shrine, or not.",
-  "version": "2.9.1",
+```json
+{
+  "name": "iOS 18 Light Mode",
+  "description": "A simple light mode theme inspired by iOS 18 with subtle colors and hints of transparency.",
+  "version": "1.0",
   "authors": [
     {
-      "name": "mortyick",
+      "name": "seregonwar",
       "id": "705853948052897813"
     }
   ],
   "theme_color_map": {
     "HEADER_PRIMARY": [
-      "#d95f76",
-      "#23232d"
+      "#FFFFFF",
+      "#FFFFFF"
     ],
     "HEADER_SECONDARY": [
-      "#4fa9f6",
-      "#3d4858"
+      "#CCCCCC",
+      "#CCCCCC"
     ],
-    "TEXT_NORMAL": [
-      "#FBFBFB",
-      "#2e3338"
+    "NORMAL_TEXT": [
+      "#333333",
+      "#333333"
     ],
     "TEXT_MUTED": [
-      "#d95f76",
-      "#747f8d"
+      "#999999",
+      "#999999"
     ],
     "INTERACTIVE_NORMAL": [
-      "#4fa9f6",
-      "#3d4858"
+      "#007AFF",
+      "#007AFF"
     ],
     "INTERACTIVE_HOVER": [
-      "#dcddde",
-      "#2e3338"
+      "#0056B3",
+      "#0056B3"
     ],
     "INTERACTIVE_ACTIVE": [
-      "#de6379",
-      "#1e1e38"
+      "#004399",
+      "#004399"
     ],
     "INTERACTIVE_MUTED": [
-      "#1b2845",
-      "#c7ccd1"
+      "#B3BBCC",
+      "#B3BBCC"
     ],
     "BACKGROUND_PRIMARY": [
-      "#090e1a",
-      "#ffffff"
+      "#F2F2F7",
+      "#F2F2F7"
     ],
     "BACKGROUND_SECONDARY": [
-      "#090e1a",
-      "#f2f3f5"
+      "#FFFFFF",
+      "#FFFFFF"
     ],
     "BACKGROUND_SECONDARY_ALT": [
-      "#090e1a",
-      "#ebedef"
+      "#E5E5EA",
+      "#E5E5EA"
     ],
-    "BACKGROUND_TERTIARY": [
-      "#101622",
-      "#e3e5e8"
+    "TERTIARY_BACKGROUND": [
+      "#D9D9E2",
+      "#D9D9E2"
     ],
     "BACKGROUND_ACCENT": [
-      "#f05fae",
-      "#747f8d"
+      "#FFD60A",
+      "#FFD60A"
     ],
     "BACKGROUND_FLOATING": [
-      "#0c1426",
-      "#FFFFFF"
+      "rgba(255, 255, 255, 0.8)",
+      "rgba(255, 255, 255, 0.8)"
     ],
     "BACKGROUND_MOBILE_PRIMARY": [
-      "#0c1426",
-      "#f8f9f9"
+      "#F2F2F7",
+      "#F2F2F7"
     ],
     "BACKGROUND_MOBILE_SECONDARY": [
-      "#090e1a",
-      "#ffffff"
-    ],
-    "BACKGROUND_NESTED_FLOATING": [
-      "#090e1a",
-      "#ffffff"
-    ],
-    "BACKGROUND_MESSAGE_HOVER": [
-      "rgba(255, 255, 255, 0.02)",
+      "#FFFFFF",
       "#FFFFFF"
     ],
-    "BACKGROUND_MODIFIER_HOVER": [
-      "rgba(255, 255, 255, 0.02)",
-      "hsla(214, 9.9%, 50.4%, 0.08)"
+    "BACKGROUND_NESTED_FLOATING": [
+      "rgba(255, 255, 255, 0.8)",
+      "rgba(255, 255, 255, 0.8)"
     ],
-    "BACKGROUND_MODIFIER_ACTIVE": [
-      "rgba(255, 255, 255, 0.03)",
-      "hsla(214, 9.9%, 50.4%, 0.16)"
+    "BACKGROUND_MODIFIER_HOVER": [
+      "rgba(0, 0, 0, 0.1)",
+      "rgba(0, 0, 0, 0.1)"
     ],
     "BACKGROUND_MODIFIER_SELECTED": [
-      "rgba(255, 255, 255, 0.04)",
-      "hsla(214, 9.9%, 50.4%, 0.24)"
+      "rgba(0, 0, 0, 0.1)",
+      "rgba(0, 0, 0, 0.1)"
     ],
     "BACKGROUND_MODIFIER_ACCENT": [
-      "transparent",
-      "hsla(240, 7.7%, 2.5%, 0.08)"
+      "rgba(0, 0, 0, 0.1)",
+      "rgba(0, 0, 0, 0.1)"
     ],
     "SCROLLBAR_THIN_THUMB": [
-      "#2a1858",
-      "hsla(217, 7.6%, 33.5%, 0.3)"
-    ],
-    "SCROLLBAR_THIN_TRACK": [
-      "transparent",
-      "hsla(0, 0%, 0%, 0)"
-    ],
-    "SCROLLBAR_AUTO_THUMB": [
-      "#2a1858",
-      "#cccccc"
+      "rgba(0, 0, 0, 0.5)",
+      "rgba(0, 0, 0, 0.5)"
     ],
     "SCROLLBAR_AUTO_TRACK": [
       "rgba(0, 0, 0, 0.1)",
-      "#f2f2f2"
+      "rgba(0, 0, 0, 0.1)"
     ],
     "CHANNELTEXTAREA_BACKGROUND": [
-      "#111111",
-      "#ebedef"
+      "#FFFFFF",
+      "#FFFFFF"
     ],
     "CHANNELS_DEFAULT": [
-      "#e7778b",
-      "#475d77"
+      "#FFFFFF",
+      "#FFFFFF"
     ],
     "TEXT_LINK": [
-      "#c73954",
-      "#000000"
+      "#007AFF",
+      "#007AFF"
     ],
     "KEYBOARD": [
-      "#0b0f1a",
+      "#FFFFFF",
       "#FFFFFF"
     ]
   },
-  "colours": {
-    "PRIMARY_DARK": "#747474",
-    "PRIMARY_DARK_100": "#FFFFFF",
-    "PRIMARY_DARK_200": "#FFFFFF",
-    "PRIMARY_DARK_300": "#4fa9f6",
-    "PRIMARY_DARK_360": "#fcfdfc",
-    "PRIMARY_DARK_400": "#bebee3",
-    "PRIMARY_DARK_500": "#697eab",
-    "PRIMARY_DARK_600": "#101622",
-    "PRIMARY_DARK_630": "#111b31",
-    "PRIMARY_DARK_700": "#0e1628",
-    "PRIMARY_DARK_800": "#131823",
-    "BRAND_NEW": "#f05fae",
-    "STATUS_RED": "#c18ea4",
-    "STATUS_GREEN_600": "#87a2de",
-    "STATUS_YELLOW": "#c18ea4"
+  "colors": {
+    "PRIMARY_DARK": "#333333",
+    "PRIMARY_DARK_100": "#666666",
+    "PRIMARY_DARK_200": "#999999",
+    "PRIMARY_DARK_300": "#CCCCCC",
+    "PRIMARY_DARK_360": "#E5E5EA",
+    "PRIMARY_DARK_400": "#F2F2F7",
+    "PRIMARY_DARK_500": "#FFFFFF",
+    "PRIMARY_DARK_600": "#F2F2F7",
+    "PRIMARY_DARK_630": "#E5E5EA",
+    "PRIMARY_DARK_700": "#CCCCCC",
+    "PRIMARY_DARK_800": "#999999",
+    "BRAND_NEW": "#FFD60A",
+    "STATUS_RED": "#FF3B30",
+    "STATUS_GREEN_600": "#34C759",
+    "YELLOW_STATE": "#FFD60A"
   },
   "unsafe_colors": {
-    "CHAT_GREY": "#13151a"
+    "CHAT_GREY": "#999999"
   },
   "background": {
-    "blur": 0.1,
-    "url": "https://files.catbox.moe/iovmbu.jpeg",
+    "blur": 0.5,
+    "url": "background photo link here",
     "alpha": 1.0
   }
 }
+```
